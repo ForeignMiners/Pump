@@ -13,7 +13,7 @@ for f in files:
     output,error=log3.communicate()
     
 
-cmd="cut -d ',' -f0 PumpList.csv | awk '!visited[$0]++' >>PumpSymbols.csv"
+cmd="cut -d ',' -f1 PumpList.csv | awk '!visited[$0]++' >>PumpSymbols.csv"
 print(cmd)
 log3 = subprocess.Popen([cmd], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 output,error=log3.communicate()

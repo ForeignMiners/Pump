@@ -16,8 +16,8 @@ from datetime import datetime
 from binance.client import Client
 from binance.websockets import BinanceSocketManager
 
-api_key = ''    #Enter your own API-key here
-api_secret = '' #Enter your own API-secret h
+api_key = 'mPHpXgB31MugJ5lwS57NCOzsAHVRTtuF9giYipdEzO7s6PeNGToqoYCAFH1DgFPe'    #Enter your own API-key here
+api_secret = 'fxG5xWQ9uIYryJda1jdymnThfD9zg9JYevUM9Yf2pPXMl71df2S1L60bmD8JEQyF' #Enter your own API-secret h
 
 client = Client(api_key, api_secret)
 
